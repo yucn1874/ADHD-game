@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 强制全屏深色背景，防止出现白边 */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #0f172a; /* 对应 slate-900 */
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 确保主容器占满屏幕 */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+/* 震动动画 keyframes */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  75% { transform: translateX(5px); }
+}
+
+/* 震动类 */
+.animate-shake {
+  animation: shake 0.3s ease-in-out;
+  border-color: #ef4444 !important; /* 变红 */
+  color: #ef4444 !important;
+}
