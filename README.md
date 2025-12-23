@@ -1,11 +1,15 @@
 # 🧠 Focus Flow ADHD 训练游戏
 
 一个基于以太坊的专注力训练小游戏（舒尔特方格），前端使用 Next.js + RainbowKit + wagmi，合约使用 Hardhat/Igni­tion 部署。玩家每次完成训练都会把成绩上链，形成不可篡改的「专注勋章」。
-
-一个为 ADHD / 注意力障碍用户 设计的 专注力训练 Web 游戏。  
+为 ADHD / 注意力障碍用户 设计的 专注力训练 Web 游戏。  
 通过节奏反馈、即时奖励与低干扰 UI，帮助用户在短时间内进入专注状态，并逐步延长有效注意力时长。
 
 ---
+
+## 🔗 Live Demo
+
+👉 https://adhd-game-5o05o5nnb-yucns-projects.vercel.app
+
 
 ## ✨ 项目特点（Features）
 
